@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(../img/vishwajeet-nishad-pc21vhOv-Uo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    opacity: .8;
+}
+
+h1 {
+    font-size: 24px;
+    color:#b7a375;
+    position: relative;
+    padding: 2em .5em 0 2em;
+    border-bottom: 1px solid #B61C2C;
+     }
+
+
+ h1::before,
+ h1::after {
+    position: absolute;
+    content: '';
+    border-radius: 100%
+ }
+ h1::before {
+    top: 1em;
+    left: .2em;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+    background: #562B08;
+    opacity: .4;
+ }
+ h1::after {
+    top: 1.5em;
+    left: 1em;
+    width: 18px;
+    height: 18px;
+    background: #647E68;
+    opacity: .6;
+ }
+
+ p{
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 100px;
+    
+    }
